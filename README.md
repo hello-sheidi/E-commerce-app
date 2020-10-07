@@ -6,6 +6,10 @@
 
 ---
 
+### [Live Demo](https://my-ecommerce-shop.herokuapp.com/)
+
+---
+
 ### Setup
 
 ```
