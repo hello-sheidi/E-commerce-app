@@ -5,11 +5,13 @@ module.exports = ({ content }) => {
         <head>
           <meta charset="utf-8">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <title>Shop</title>
+          <title>Lara | Because You Deserve It</title>
           
           <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
           <link href="/css/main.css" rel="stylesheet">
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css"></link>
+          <link rel="shortcut icon" type="image/png" href="images/favic.png" />
+
         </head>
   
         <body>
@@ -41,17 +43,18 @@ module.exports = ({ content }) => {
               <div class="container navbar-container">
                 <div>
                   <a href="/">
-                    <h3 class="title">EComm Shop</h3>
+                    <h3 class="title">Your Favorite Online Shop</h3>
                   </a>
                 </div>
                 <div class="navbar-item">
                   <div class="navbar-buttons">
                     <div class="navbar-item">
-                      <a href="/"><i class="fa fa-star"></i> Products</a>
+                      <a class="navbar-item-link" href="/"><i class="fa fa-star"></i> Products</a>
                     </div>
                     <div class="navbar-item">
-                      <a href="/cart"><i class="fa fa-shopping-cart"></i> Cart</a>
+                      <a class="navbar-item-link" href="/cart"><i class="fa fa-shopping-cart"></i> Cart</a>
                     </div>
+                      <a href="/signin" class="navbar-admin">Admin Panel &rarr;</a>
                   </div>
                 </div>
               </div>
