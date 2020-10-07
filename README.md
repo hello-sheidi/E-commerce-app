@@ -1,4 +1,4 @@
-## E-commerce Shop
+# E-commerce Shop
 
 #### Application was built while following
 
